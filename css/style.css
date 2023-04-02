@@ -1,0 +1,164 @@
+body {
+  font-family: 'Arial', ' Helvetica', sans-serif;
+}
+h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+p {
+  font-size: 00.9rem;
+}
+
+#hamburger-img {
+  margin-right: 20px;
+  width: 20px;
+}
+
+
+header h1 {
+  white-space: nowrap;
+}
+
+header a {
+  margin-left: 8px;
+  color: #d1d1d1;
+}
+
+header a:hover {
+  color: black;
+}
+
+#work-content img {
+  width: 100%;
+}
+
+#blog-content img {
+  width: 100%;
+}
+
+#info-section {
+  background-color: #222222;
+  color: white;
+}
+
+table td{
+  max-width: 100%;
+  font-size: 0.9rem;
+}
+table a{
+  text-decoration: none;
+  color: #6c757d;
+}
+table a:hover {
+  color: white;
+}
+table a:visited {
+  color: #6c757d;
+}
+
+footer {
+  background-color: #000000;
+}
+
+@media (min-width: 1200px) {
+  #hero-title {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    margin-left: 6%;
+  }
+  #hero-title h4 {
+    font-weight: bold;
+    white-space: nowrap;
+    background-color: #2fc389;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+  #hero-title  {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    margin-left: 6%;
+  }
+  #hero-title h4 {
+    font-weight: bold;
+    white-space: nowrap;
+    background-color: #2fc389;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  #hero-title {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    margin-left: 6%;
+  }
+  #hero-title h4 {
+    font-weight: bold;
+    font-size: 1rem;
+    white-space: nowrap;
+    background-color: #2fc389;
+    display: inline;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 576px) { 
+  #hero-title {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    margin-left: 6%;
+  }
+  #hero-title h4 {
+    font-weight: bold;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    background-color: #2fc389;
+    display: inline;
+    text-align: center;
+  }
+  h1.display-6 {
+    font-size: 1.3rem;
+    display: inline;
+    white-space: nowrap;
+  }  
+}
+
+@media (max-width: 376px) { 
+  #hero-title {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem !important;
+  }
+  #hero-title h4 {
+    font-weight: bold;
+    font-size: 0.6rem;
+    white-space: nowrap;
+    background-color: #2fc389;
+    display: inline;
+    text-align: center;
+  }
+  h1.display-6 {
+    font-size: 1.2rem;
+    display: inline;
+    white-space: nowrap;
+  }
+  #hamburger-img {
+    margin-right: 15px;
+    width: 15px;
+  }
+  header a{
+    font-size: 0.8rem;
+  }  
+
+}
